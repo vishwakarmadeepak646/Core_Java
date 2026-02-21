@@ -28,13 +28,13 @@ public class Shape {
 	public static Shape getShape(int i) {
 		if(i == 0) {
 			return new Circle();
-		
-		}if (i == 1) {
+		}
+		if(i ==1 ) {
 			return new Rectangle();
-			
-		}if(i == 2) {
+		}
+		if (i == 2) {
 			return new Triangle();
 		}
-		return new Shape();
-	}
+		return new Shape()
+;	}
 }
