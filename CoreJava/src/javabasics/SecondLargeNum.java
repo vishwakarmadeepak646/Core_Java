@@ -2,22 +2,27 @@ package javabasics;
 
 public class SecondLargeNum {
 	public static void main(String[] args) {
-		int a[] = { 1, 3, 90, 5, 3, 9, 88, 4, 6, 98 };
+		int arr[] = { 1, 3, 909, 5, 3, 9, 88, 4, 6, 98 };
 
-		int max = a[1];
-		int i = 0;
 		int sec = 0;
-
-		for (i = 0; i < a.length; i++) {
-
-			if (a[i] > max) {
+		int max = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+			if(arr[i]>max) {
+				
 				sec = max;
-				max = a[i];
-
+				max = arr[i];
+				
+			}
+			
+			if(max>arr[i] && sec<arr[i]) {
+				
+				sec = arr[i];
 			}
 		}
-		System.out.println("Largest Number of this Array is : "+ max);
-		System.out.println("Second Largest Number of this Array is : "+ sec);
-
+		
+		System.out.println("Second Largest Element in Array : " + sec);
+		System.out.println("Largest Element in Array : " + max);	
 	}
 }
