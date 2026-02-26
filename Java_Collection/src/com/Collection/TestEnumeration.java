@@ -21,9 +21,9 @@ public class TestEnumeration {  // This works on historical collection
 		
 		Enumeration e = v.elements();
 		
-		while(e.hasMoreElements()) {
+		while(e.hasMoreElements()) {    // hasMoreElements() -- It returns true or false
 			
-			Object o = e.nextElement();
+			Object o = e.nextElement();  // nextElement() --- It will print the element
 			System.out.println(o);
 		}
 		

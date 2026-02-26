@@ -25,6 +25,7 @@ public class TestFailSafe {
 		
 		while(e.hasMoreElements()) {
 			System.out.println(e.nextElement());
+			
 		}
 		
 		System.out.println("Vector : " + v);

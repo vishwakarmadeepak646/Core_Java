@@ -12,9 +12,9 @@ public class TestIterator {
 		
 		li.add("Deepak");
 		li.add("Vishwakarma");
-		li.add(12);
-		li.add(23.45);
 		li.add(true);
+		li.add(23.45);
+		li.add(123);
 		
 		System.out.println(li);
 		
@@ -22,9 +22,9 @@ public class TestIterator {
 
 		Iterator r = li.iterator();
 		
-		while(r.hasNext()) {
-			System.out.println(r.next());
-			r.remove();
+		while(r.hasNext()) { 				//hasNext() ---return boolean value only true or false
+			System.out.println(r.next());   //r.next() ---- It will print the value
+ 			r.remove();
 		}
 		
 		System.out.println("---------------------------");

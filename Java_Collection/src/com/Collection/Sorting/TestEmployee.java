@@ -28,6 +28,7 @@ public class TestEmployee {
 		li.add(e4);
 		li.add(e5);
 		
+		
 		System.out.println(li);
 		
 		System.out.println("-------2--------------------");
@@ -44,6 +45,7 @@ public class TestEmployee {
 		while(it.hasNext()) {
 			Object o = it.next();
 			System.out.println(o);
+			it.remove();
 		}
 		
 		System.out.println("-------4---------------------");
