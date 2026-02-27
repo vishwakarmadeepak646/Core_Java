@@ -26,7 +26,7 @@ public class TestStream {
 		li.stream().distinct().sorted(Comparator.reverseOrder()).forEach(System.out::println); //.sorted() -- For sorting
 		// Comparator.reverseOrder() ---> Reverse the String
 		
-		System.out.println("----------------------------------");
+		System.out.println("----------------------------------"); // -> This is Lambda function
 
 		li.stream().distinct().map(e -> e.toLowerCase()).forEach(System.out::println); // For map() --> We can use all String class methods which can not written boolean. like  toLowerCase()
 		
