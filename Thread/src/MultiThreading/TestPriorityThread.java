@@ -13,6 +13,8 @@ public class TestPriorityThread {
 		t1.setPriority(t1.MAX_PRIORITY); // Maximum Priority is 10 , we can also write MAX_PRIORITY
 		t2.setPriority(Thread.MIN_PRIORITY);  // Maximum Priority is 1
 		
+		int i = t2.getPriority();
+		System.out.println("Priority of t2 is : " + i); // To know the priority of any thread.
 		t1.start();
 		t2.start();
 		t3.start(); // It having default priority Thread.NORM_PRIORITY

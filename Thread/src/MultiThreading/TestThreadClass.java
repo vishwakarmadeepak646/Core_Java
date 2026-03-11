@@ -12,7 +12,7 @@ public class TestThreadClass {
 		ThreadClass t1 = new ThreadClass("Ram");
 		ThreadClass t2 = new ThreadClass("Shyam");
 		
-		t1.start(); // we have to call start() to run the run() method without start() it will not run.
+		t1.start(); // we have to call start() to execute the run() method without start() it will not able to execute the run() method.
 		t2.start();
 		
 		// output every-times very bcz it's depends on memory allocated to thread.

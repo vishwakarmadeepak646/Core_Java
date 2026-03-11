@@ -13,10 +13,9 @@ public class ThreadClass extends Thread{
 	public void run() { // Run method use for scheduling the thread.
 		for(int i = 1; i<11; i++) {
 			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-				
+				Thread.sleep(1000);  // It will through Interrupted Exception 
+			} catch (InterruptedException e) { 
+				e.printStackTrace();				
 			}
 			System.out.println(i + " = " + name);
 		}
