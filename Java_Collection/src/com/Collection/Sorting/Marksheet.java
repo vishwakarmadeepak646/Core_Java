@@ -16,6 +16,8 @@ public class Marksheet implements Comparable<Marksheet> {
 	public int compareTo(Marksheet o) {
 		//return rollno.compareTo(o.rollno);  // It will sort in Ascending order if obj1 (rollno) written first
 		return o.rollno.compareTo(rollno); // This will sort in DESC or as we have change the object from first to second
+		
+	//	return rollno - o.rollno; // If rollno is a int then we use - symbol
 	}
 	
 	public String toString() {

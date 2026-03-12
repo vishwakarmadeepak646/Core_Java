@@ -27,8 +27,7 @@ public class TestEmployee {
 		li.add(e3);
 		li.add(e4);
 		li.add(e5);
-		
-		
+				
 		System.out.println(li);
 		
 		System.out.println("-------2--------------------");
@@ -36,8 +35,7 @@ public class TestEmployee {
 		for(Object o : li) {
 			System.out.println(o);
 		}
-		
-		
+				
 		System.out.println("-------3--------------------");
 		
 		Iterator it = li.iterator();

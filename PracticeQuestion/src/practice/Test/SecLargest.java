@@ -1,6 +1,7 @@
-package javabasics;
+package practice.Test;
 
-public class SecondLargeNum {
+public class SecLargest {
+
 	public static void main(String[] args) {
 		int arr[] = { 1, 3, 909, 5, 3, 9, 88, 4, 6, 98 };
 
